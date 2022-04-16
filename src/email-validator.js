@@ -1,5 +1,5 @@
 
-export const sub = setTimeout(function() {
+export const validate = setTimeout(function() {
     const main = document.getElementById('app-container');
     const btn = main.children[4].children[2].children[1];
     const input = main.children[4].children[2].children[0];

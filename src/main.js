@@ -1,5 +1,5 @@
 import { SectionCreator } from "./join-us-section.js";
-import { sub } from "./email-validator.js";
+import { validate } from "./email-validator.js";
 
 const factory = new SectionCreator;
 const standard = factory.create('standard');
@@ -10,4 +10,4 @@ const standard = factory.create('standard');
 
 
 
-// subscribe.setAttribute('onclick', 'validate()');
+
