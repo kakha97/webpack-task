@@ -23,10 +23,12 @@ class Section {
                 const divFlex = document.createElement('div');
                 divFlex.className = 'input-div-flex';
                 joinOurProgramSection.appendChild(divFlex);
+
                 const email = document.createElement('input');
                 email.setAttribute('type', 'email');
-                email.setAttribute('value', 'Email');
+                email.setAttribute('placeholder', 'Email');
                 email.className = 'app-section--email';
+                
                 divFlex.appendChild(email);
                 const subscribe = document.createElement('button');
                 subscribe.innerHTML = subscribeText;
